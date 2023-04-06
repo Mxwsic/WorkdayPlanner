@@ -11,7 +11,7 @@ $(function () {
   $("#time15").val(localStorage.getItem("3PM"));
   $("#time16").val(localStorage.getItem("4PM"));
   $("#time17").val(localStorage.getItem("5PM"));
-  var now = dayjs().format("dddd, MMMM D YYYY");
+  var now = dayjs().format("ddd, MMM DD YYYY, hh:mm:ssa");
   console.log(now);
   $("#currentDay").text(now);
 
